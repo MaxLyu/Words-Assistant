@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/login_validate.js" ></script>
+</head>
+<!--图标样式-->
+<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.bootcss.com/normalize/7.0.0/normalize.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/login.css">
+<body>
+	
+	<div class="container">
+		<div class="log-word">登录</div>
+		<div class="log-body col-md-4 col-md-offset-4">
+			<form action="#" role="form" >
+                    <div class="form-group user">
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <input class="form-control" id="username-input" type="text" placeholder=" 请输入帐号" name="username">
+                        </div>
+                        <div id="username-error" class="error"></div>
+                    </div>
+                    <div class="form-group password">
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <i class="fa fa-lock"></i>
+                            </div>
+                            <input class="form-control" id="password-input" type="password" placeholder=" 请输入密码" name="password">
+                        </div>
+                        <div class="error" id="user-error"></div>
+                    </div>
+					<div class="form-group">
+						<a href="signup.html" id="register">没有帐号？注册一个</a>
+					</div>
+                    <div class="submit">
+                        <input type="button" id="submit" name="submit" value="确认">
+                    </div>
+                </form>
+			<div class="tuijian">推荐使用Chrome浏览器</div>
+		</div>
+	</div>
+	
+</body>
+</html>

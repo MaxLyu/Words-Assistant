@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>单词助手</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/text.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/text.js"></script>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="main.html">单词助手</a>
+		</div>
+		<div class="float-right ">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="note.php">生词本</a></li>
+				<li class="active"><a href="addwords.html">录入词汇</a></li>
+			</ul>
+			
+		</div>
+	</nav>
+	
+	<div class="container" id="textdiv">
+		<div id="formdiv">
+			<form role="form">
+				<div id="word" class="control-label"></div>
+				<div id="input-text">
+					<input id="answer" type="text" name="answer" placeholder=" 请 输 入 你 的 答 案 ">
+					<i class="" id="istrue"></i>
+				</div>
+				<div>
+					<input type="button" name="submit" id="submit" class="submit" value="  确  定  ">
+					<a href="text.html" id="restart">Restart</a>
+				</div>
+			</form>
+			</div>
+	</div>
+	
+</body>
+</html>

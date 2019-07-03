@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background: #F7F7F7;
+}
+.container{
+	border: 1px solid #eee;
+	width: 75%;
+	background: #ffffff;
+}
+.log-word{
+	height: 80px;
+	width: 60%;
+	margin: 5px auto;
+	color: #292929;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+	border-bottom: 1px solid #cacaca;
+}
+.log-body{
+	height: 450px;
+	margin-top: 40px;
+}
+.log-body form{
+	display: block;
+	margin-top: 0em;
+}
+.user input,
+.password input{
+	height: 32px;
+	width: 100%;
+	border: 1px solid #cacaca;
+}
+.input-group-addon i{
+	padding: 2px 3px;
+}
+.error {
+	font-size: 15px;
+	color: 	#CD0000;
+	background-color: rgba(255,48,48,.2);
+	border: 1px solid #fbb1b4;
+	border-radius: 4px;
+	padding-left: 15px;
+	margin-top: 3px;
+}
+#register{
+	color: #5d5d5d;
+	text-align: center;
+	float: right;
+	padding-bottom:8px;
+}
+#register:hover{
+	color:black;
+}
+.submit input{
+	background: #6e6e70;
+	color: white;
+	border: none;
+	height: 35px;
+	width: 100%;
+}
+.tuijian{
+	color: #a2a2a2;
+	text-align: center;
+	padding-top: 25px;
+}

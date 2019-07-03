@@ -1,0 +1,41 @@
+#textdiv{
+	padding-top:50px;
+}
+#formdiv{
+	margin:0 auto;
+}
+#word{
+	font-size:30px;
+	padding-bottom: 20px;
+}
+#input-text{
+	border: 1px solid #ddd;
+    padding: 5px 20px;
+    width: 50%;
+	height: 48px;
+    margin-bottom: 28px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#answer{
+	outline: 0;
+	border:none;
+	padding-top: 8px;
+	width: 95%;
+}
+#istrue{
+	font-size:22px;
+}
+#submit{
+	height: 48px;
+    width: 113px;
+    text-align: center;
+    background-color: #6e6e70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#restart{
+	margin-left: 34%;
+    font-size: 18px;
+}

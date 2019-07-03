@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>单词助手</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link href="css/main.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/findwords.js"></script>
+	<script type="text/javascript" src="js/delete.js"></script>
+	<script type="text/javascript" src="js/add2note.js" async></script>
+	<script type="text/javascript" src="js/readtxt.js" async></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid container">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">单词助手</a>
+		</div>
+		<div class="float-right ">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="note.php">生词本</a></li>
+				<li><a href="text.html">测试</a></li>
+				<li><a id="readtxt">载入文本</a></li>
+				<li class="active"><a href="addwords.html">录入词汇</a></li>
+			</ul>
+			
+		</div>
+		
+		</div>
+	</nav>
+	
+	<div class="container formdiv" id="search">
+		<div class="wrap">	
+			<form action="#" method="get" id="form">
+				<div id="border">
+					<div id="selectType">
+						<select class="ways" id="ways" name="ways">
+						  <option value="word">  EN to CN  </option>
+						  <option value="interpretation">  CN to EN  </option>
+						</select>
+					</div>
+
+					<input id="word" type="text" name="wannafind" placeholder=" 输 入 想 要 翻 译 的 单 词 或 词 语">
+				</div>
+
+				<div>
+					<input type="button" name="submit" id="submit" class="button" value="     翻  译     ">
+				</div>
+			</form>
+		</div>
+		
+		
+	</div>
+	</br>
+	<div class="container result"><p id="word-error" style="color:red"></p></div>
+	<!-- 搜索结果显示区域 -->
+	<div class="container result" id="search_result">
+		<b id="result-word"></b>
+		<a id="add2note">
+			<i class="fa fa-star-o" id="mark"></i>
+		</a>
+		<div id="result-others"></div>
+	</div>
+	</br style="padding:10px 0">
+	<div class="container result" id="hidden-button">
+		<div class="modify">
+			<!-- <input type="button" name="modify" id="modify" class="button" value="     修  改     "> -->
+		</div>
+		
+		<div class="delete">
+			<input type="button" name="delete" id="delete" value="     删  除     ">
+		</div>
+	</div>
+	
+	
+	
+</body>
+
+</html>

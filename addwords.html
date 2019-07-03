@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>单词助手</title>
+    <link href="css/addwords.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+	
+    <section id="getintouch" class="fadeIn animated">
+        <div class="container" style="border-bottom: 0;">
+            <h1>
+                <span>单词助手</span>
+            </h1>
+        </div>
+        <div class="container">
+            <form class="contact" action="php/addwords.php" method="post" id="form">
+            <div class="row clearfix">
+                <div class="lbl">
+                    <label>单词</label>
+                </div>
+                <div class="ctrl">
+                    <input id="word" type="text" name="word" placeholder="Apple">
+                </div>
+				<div class="error"><p id="word-error" style="color:red"></p></div>
+            </div>
+            <div class="row clearfix">
+                <div class="lbl">
+                    <label>词性</label>
+                </div>
+                <div class="ctrl">
+                    <input id="chara" type="text" name="chara" placeholder="n.">
+                </div>
+				<div class="error"><p id="chara-error" style="color:red"></p></div>
+            </div>
+            <div class="row clearfix">
+                <div class="lbl">
+                    <label>词义</label>
+                </div>
+                <div class="ctrl">
+                    <input id="inter" type="text" name="interpretation" placeholder="苹果">
+                </div>
+				<div class="error"><p id="inter-error" style="color:red"></p></div>
+            </div>
+			<div class="row clearfix">
+                <div class="lbl">
+                    <label>音标</label>
+                </div>
+                <div class="ctrl">
+                    <input type="text" name="pronounction" placeholder="['æp(ə)l]">
+                </div>
+            </div>
+            <div class="row clearfix">
+                <div class="lbl">
+                    <label>英文例句</label>
+                </div>
+                <div class="ctrl">
+                    <input type="text" name="engexpl" placeholder="I have an apple.">
+                </div>
+            </div>
+			<div class="row clearfix">
+                <div class="lbl">
+                    <label>中文例句</label>
+                </div>
+                <div class="ctrl">
+                    <input type="text" name="chsexpl" placeholder="我有一颗苹果">
+                </div>
+            </div>
+			<div class="row clearfix">
+				<div style="float:left">
+					<div class="lbl">
+						<label>难度</label>
+					</div>
+				
+					<div class="ctrl">
+						<select class="difficulties" name="difficulty">
+						  <option value="简单">  简 单  </option>
+						  <option value="中等">  中 等  </option>
+						  <option value="困难">  困 难  </option>
+						</select>
+					</div>
+				</div>
+				<div style="float:right">
+					<div class="lbl">
+						<label>上传插图</label>
+					</div>
+					<div class="ctrl">
+						<input type="file" id="inputfile" name="picture">
+					</div>
+				</div>
+			</div>
+            
+            <div class="row  clearfix">
+                <div class="span10 offset2">
+                    <input type="submit" name="submit" id="submit" class="submit" value="     提   交     ">
+					<a href="main.html" style="padding-top:30px; padding-right:30px; float:right">返回首页</a>
+                </div>
+            </div>
+            </form>
+            
+        </div>
+    </section>
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/addwords.js"></script>
+	
+</body>
+
+</html>

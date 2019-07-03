@@ -1,0 +1,67 @@
+.formdiv{
+	padding-top:100px;
+}
+#search #form #border {
+    width: 600px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    height: 52px;
+    line-height: 42px;
+    background-color: #fff;
+}
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+#search #selectType {
+    left: 1px;
+    top: 6px;
+    margin-right: 10px;
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+.ways{
+	padding: 15px 30px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius :5px;
+}
+.button {
+    float: left;
+    height: 50px;
+    width: 113px;
+    text-align: center;
+    background-color: #6e6e70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+#word{
+	outline: 0;
+    border: none;
+    width: 383px;
+    font-size: 13px;
+}
+.result{
+	padding:5px 185px;
+}
+#result-word{
+	font-size:28px;
+}
+#mark{
+	padding:10px 20px;
+	font-size:20px;
+}
+#delete{
+	float: left;
+    height: 50px;
+    width: 113px;
+    text-align: center;
+    background-color: #6e6e70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
